@@ -1,0 +1,194 @@
+* {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  box-sizing: border-box;
+  color: black;
+}
+
+html {
+  background: url(images/background.jpg) black no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-origin: border-box;
+  background-size: cover;
+}
+
+ul {
+  list-style: none;
+  color: black;
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  display:inline-block;  
+}
+
+
+.question img, .welcome  img {
+  height:75px;
+  width: 75px;
+  display: inline-block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.albumArt {
+  margin: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 250px;
+  weight: 250px;
+}
+
+.welcome, .question, .feedback, .finale  {
+  background-color: rgb(180, 160, 110);
+  border-radius: 10px;
+  padding: 20px;
+  color: #dddada;
+  text-align: center;
+  position: relative;
+  top: 100px;
+  width: 900px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.5s ease;
+}
+
+.incorrect {
+display: inline-block;  
+font-weight:900;
+color: black;
+margin-top: 15px;
+}
+
+.selected:hover {
+margin: 10px;  
+padding: 10px;  
+height: 100%;
+width: 100%;
+border-radius: 6px;
+transition: all 0.4s linear;
+box-shadow: 5px 6px 35px -2px black;
+}
+
+.red{
+  color: darkred;
+}
+
+.green {
+  color: seagreen;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.selected {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+fieldset {
+  border: none;
+}
+
+button {
+  background-color:rgb(180, 160, 110);
+  text-transform: uppercase;
+  color: black;
+  border: 2px solid  rgb(49, 48, 48);
+  border-radius: 5px;
+  height: 60px;
+  width: 200px;
+  padding: 5px;
+  text-align:center;
+}
+
+button:hover {
+  background-color: black;
+  color:  rgb(180, 160, 110);
+  transition: all 0.4s linear;
+}
+
+
+/* for mobile screens/responsiveness*/
+@media screen and (max-width: 1023px){
+  * {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    box-sizing: border-box;
+    color: black;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  html {
+    background: url(images/background.jpg) black no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-origin: border-box;
+    background-size: cover;
+  }
+
+  ul {
+    list-style: none;
+    color: black;
+    position: relative;
+    display: block;  
+  }
+
+  .question img, .welcome img {
+    height:75px;
+    width: 75px;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .albumArt {
+    margin: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width: 100px;
+  }
+
+  .welcome, .question, .feedback, .finale  {
+    background-color: rgb(180, 160, 110);
+    border-radius: 10px;
+    padding: 20px;
+    color: #dddada;
+    text-align: center;
+    position: relative;
+    top: 65px;
+    width: 85%;
+    height: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 0.5s ease;
+  }
+
+  button {
+    background-color:rgb(180, 160, 110);
+    text-transform: uppercase;
+    color: black;
+    border: 2px solid  rgb(49, 48, 48);
+    border-radius: 5px;
+    height: auto;
+    width: auto;
+    padding: 5px;
+    text-align:center;
+  }
+}
+
+
+
+
+
