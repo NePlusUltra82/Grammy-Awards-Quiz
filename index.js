@@ -88,8 +88,8 @@ function submitAnswer(){
 function renderQuestion(){
   $('.main').html(
    `<div class='question'>
-      <header role="banner">
-          <img src="images/grammy hearder icon.png">
+      <header>
+          <img alt='grammy icon' src="images/grammy hearder icon.png">
           <strong>
             <ul>
               <li class='questionCount'>Question: ${questionNum + 1}/10</li>
@@ -101,6 +101,7 @@ function renderQuestion(){
       <h1>${STORE[questionNum].question}</h1>
       <form>
         <fieldset>
+        <legend class='selected' >Choose One:</legend>
           <div class='selected'>
             <label>
               <input type=radio name='answer' value='${STORE[questionNum].answers[0]}' required>${STORE[questionNum].answers[0]}

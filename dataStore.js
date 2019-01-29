@@ -10,7 +10,7 @@ const STORE = [
         ],
         //would benefit from refactor -- use indexing
         correctAnswer: `"That's What I Like" – Bruno Mars`,
-        artwork: `<img src="images/Bruno_Mars_-_24K_Magic_(Official_Album_Cover).png" class="albumArt">`
+        artwork: `<img alt='album artwork' src="images/Bruno_Mars_-_24K_Magic_(Official_Album_Cover).png" class="albumArt">`
     },
 
     {
@@ -23,7 +23,7 @@ const STORE = [
             `"Bad and Boujee" – Migos featuring Lil Uzi Vert`
         ],
         correctAnswer: `"Humble" – Kendrick Lamar`,
-        artwork: `<img src="images/damn_KL.jpg" class="albumArt">`
+        artwork: `<img alt='album artwork' src="images/damn_KL.jpg" class="albumArt">`
     },
 
     {
@@ -36,7 +36,7 @@ const STORE = [
             `"Redbone" – Childish Gambino`
         ],
         correctAnswer: `"Redbone" – Childish Gambino`,
-        artwork: `<img src="images/220px-Childish_Gambino_-_Awaken,_My_Love!.png" class="albumArt">`
+        artwork: `<img alt='album artwork' src="images/220px-Childish_Gambino_-_Awaken,_My_Love!.png" class="albumArt">`
     },
 
     {
@@ -50,7 +50,7 @@ const STORE = [
             `"Love Galore" – SZA featuring Travis Scott`
         ],
         correctAnswer: `"Loyalty" – Kendrick Lamar featuring Rihanna`,
-        artwork: `<img src="images/damn_KL.jpg" class="albumArt">`
+        artwork: `<img alt='album artwork' src="images/damn_KL.jpg" class="albumArt">`
     },
 
     {
@@ -63,7 +63,7 @@ const STORE = [
             `"Supermodel" - Tyran Donaldson, Terrence Henderson, Greg Landfair Jr., Carter Lang & Solana Rowe, songwriters (SZA)`
         ],
         correctAnswer: `"That's What I Like" - Christopher Brody Brown, James Fauntleroy, Philip Lawrence, Bruno Mars, Ray Charles McCullough II, Jeremy Reeves, Ray Romulus & Jonathan Yip, songwriters (Bruno Mars)`,
-        artwork: `<img src="images/Bruno_Mars_-_24K_Magic_(Official_Album_Cover).png" class="albumArt">`
+        artwork: `<img alt='album artwork' src="images/Bruno_Mars_-_24K_Magic_(Official_Album_Cover).png" class="albumArt">`
     },
 
     {
@@ -76,7 +76,7 @@ const STORE = [
             `"The Story of O.J." - Shawn Carter & Dion Wilson, songwriters (Jay-Z)`
         ],
         correctAnswer: `"Humble" - K. Duckworth, Asheton Hogan & M. Williams II, songwriters (Kendrick Lamar)`,
-        artwork: `<img src="images/damn_KL.jpg" class="albumArt">`
+        artwork: `<img alt='album artwork' src="images/damn_KL.jpg" class="albumArt">`
     },
 
     {
@@ -89,7 +89,7 @@ const STORE = [
             `Starboy – The Weeknd`
         ],
         correctAnswer: `Starboy – The Weeknd`,
-        artwork: `<img src="images/The_Weeknd_-_Starboy.png" class="albumArt">`
+        artwork: `<img alt='album artwork' src="images/The_Weeknd_-_Starboy.png" class="albumArt">`
     },
 
     {
@@ -102,7 +102,7 @@ const STORE = [
             `Feel the Real – Musiq Soulchild`
         ],
         correctAnswer: `24K Magic – Bruno Mars`,
-        artwork: `<img src="images/Bruno_Mars_-_24K_Magic_(Official_Album_Cover).png" class="albumArt">`
+        artwork: `<img alt='album artwork' src="images/Bruno_Mars_-_24K_Magic_(Official_Album_Cover).png" class="albumArt">`
     },
 
     {
@@ -115,7 +115,7 @@ const STORE = [
             `Flower Boy - Tyler, The Creator`
         ],
         correctAnswer: `Damn - Kendrick Lamar`,
-        artwork: `<img src="images/damn_KL.jpg" class="albumArt">`
+        artwork: `<img alt='album artwork' src="images/damn_KL.jpg" class="albumArt">`
     },
 
     {
@@ -128,7 +128,7 @@ const STORE = [
             `Kanye West`
         ],
         correctAnswer: `Eminem`,
-        artwork: `<p>He has won the award (6) times total</p><img src="images/eminem_photo_by_dave_j_hogan_getty_images_entertainment_getty_187596325.jpg" class="albumArt">`
+        artwork: `<p>He has won the award (6) times total</p><img alt='album artwork' src="images/eminem_photo_by_dave_j_hogan_getty_images_entertainment_getty_187596325.jpg" class="albumArt">`
     }
 ];
 
